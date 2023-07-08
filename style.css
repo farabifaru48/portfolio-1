@@ -171,7 +171,11 @@ padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
   max-width: 800px;
-  height: 320px;
+  height: 410px;
+}
+.skill:hover {
+  box-shadow: 1px 10px 10px 11px rgba(238, 229, 229, 0.918);
+  border: 15px;
 }
 
 .skill {
@@ -296,6 +300,14 @@ footer form button {
   padding: 15px 33px;
   border-radius: 3px;
   font-size: 20px;
+}
+.social-icon a:hover i {
+  filter: brightness(20%);
+}
+.social-icon a{
+ margin-right: 20px;
+ transition: color 0.3s ease;
+
 }
 
 footer form button:hover {
