@@ -219,6 +219,7 @@ ul li:hover {
 .primary-btn1:hover {
   background-color: #FD6E0A;
   color: #FFF;
+  transform: scale(1.1);
 }
 .space{
 opacity: 0.6;}
