@@ -14,8 +14,7 @@ header{
   background-image: url(images/header_bg.png);
   background-repeat: no-repeat;
 background-position: bottom right;
-background-size: 680px 460px;
-
+background-size:680px 460px;
 
  }
 nav{
@@ -153,7 +152,7 @@ background: #FFF8F3;
   justify-content: space-around;
 }
 .what{
-  padding: 100px 100px;
+  padding-right: 100px;
   text-align: center;
   border-radius: 10px;
 
@@ -164,14 +163,14 @@ width: 800px;
 flex-direction: row;
 margin: 0 auto;
 padding-bottom: 50px;
+justify-content: center;
 }
 
 .skills-container {
-  margin: 150px;
   display: flex;
   justify-content: space-between;
   max-width: 800px;
-  height: 410px;
+  height: 400px;
 }
 .skill:hover {
   box-shadow: 1px 10px 10px 11px rgba(238, 229, 229, 0.918);
@@ -197,12 +196,8 @@ padding-bottom: 50px;
 }
 
 .skill p {
-  width:230px;
-flex-direction: column;
-display: flex;
-line-height: 26px;
-margin: 0 auto;
-
+width:100%;
+text-align: left;
 }
 
 ul li {
@@ -228,7 +223,6 @@ ul li:hover {
 .space{
 opacity: 0.6;}
 .sum{
-  
   color: #181818);
   text-align: center;
   font-family: Open Sans;
@@ -236,16 +230,16 @@ opacity: 0.6;}
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 100px;
 }
 .resume{
   display: flex;
-  padding: 0px 100px;
   justify-content:space-between;
-  margin: 0px 310px;
+  margin: 0px 270px;
 }
     
 .edu p{
-  width: 450px;
+  width: 350px;
 } 
 
 
